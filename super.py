@@ -45,8 +45,8 @@ triangle = Triangle("Orange", True, 12, 15)
 # print(f"The {triangle.color} triangle has a width of {triangle.width}cm and height of {triangle.height}cm")
 # print(f"The {square.color} square has a width of {square.width}cm")
 
-
-circle.describe()
-triangle.describe()
-square.describe()
+#
+# circle.describe()
+# triangle.describe()
+# square.describe()
 
