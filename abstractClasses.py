@@ -17,7 +17,6 @@ class Vehicle(ABC):
         pass
 
 
-
 class Car(Vehicle):
     def go(self):
         print("You drive the car")
@@ -39,8 +38,8 @@ class Boat(Vehicle):
     def stop(self):
         print("You anchor the boat")
 
-boat = Boat()
 
+boat = Boat()
 boat.go()
 boat.stop()
 
