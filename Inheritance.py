@@ -2,7 +2,6 @@
 #             Helps with code reusability and extensibility.
 #             class Child(Parent)
 
-
 class Animal:
     def __init__(self, name):
         self.name = name
@@ -13,7 +12,6 @@ class Animal:
     def sleep(self):
          print(f"{self.name} is asleep")
 
-
 class Dog(Animal):
     def speak(self):
         print("WOOF")
@@ -21,7 +19,6 @@ class Dog(Animal):
 class Cat(Animal):
     def speak(self):
         print("MEOW")
-
 
 class Mouse(Animal):
     def speak(self):
