@@ -3,11 +3,9 @@
 #              Morphe = Form
 from super import circle
 
-
 #              TWO WAYS TO ACHIEVE POLYMORPHISM
 #               1. Inheritance = An object could be treated of the same type as the parent class
 #               2. "Duck typing" = Object must have necessary attributes/methods.
-
 from abc import ABC, abstractmethod
 
 class Shapes:
@@ -42,8 +40,6 @@ class Pizza(Circle):
     def __init__(self, topping, radius):
         self.topping = topping
         super().__init__(radius)
-
-
 
 shapes = [Circle(4), Square(5), Triangle(6, 7), Pizza("pepperoni", 15)]
 
