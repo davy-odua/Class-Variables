@@ -38,8 +38,9 @@ class Boat(Vehicle):
     def stop(self):
         print("You anchor the boat")
 
-
 boat = Boat()
 boat.go()
 boat.stop()
+
+
 
